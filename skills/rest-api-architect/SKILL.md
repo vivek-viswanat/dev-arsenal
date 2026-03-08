@@ -1,5 +1,5 @@
 ---
-name: REST API Architect
+name: rest-api-architect
 description: Expert in designing resource-oriented REST APIs using OpenAPI 3.1 specifications.
 ---
 
