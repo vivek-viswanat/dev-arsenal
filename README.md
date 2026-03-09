@@ -1,7 +1,7 @@
 # 🛠️ DevArsenal
 The Swiss Army Knife for AI-Native Development.
 
-AgentArsenal provides a collection of high-performance, ready-to-use skills for AI agents. Whether you are using Claude Code, Cline or Cursor these tools extend your agent's capabilities beyond the terminal, allowing them to interact with APIs, databases and local workflows with precision.
+DevArsenal provides a collection of high-performance, ready-to-use skills for AI agents. Whether you are using Claude Code, Cline or Cursor these tools extend your agent's capabilities beyond the terminal, allowing them to interact with APIs, databases and local workflows with precision.
 
 ## ✨ Key Features
 Plug & Play: Optimized for the Model Context Protocol (MCP).
@@ -14,11 +14,26 @@ Lightweight: Zero-bloat, high-efficiency TypeScript/Python implementations.
 
 ## 🚀 Quick Start
 1. Clone the repo.
-2. Based on the tooling used, follow the steps below:
-3. ClaudeCode
-4. Cline
-5. Cursor
-Add the tool path to your claude_desktop_config.json or Cline settings.
+2. Based on your AI agent tool, follow the integration steps below:
+
+### Claude Code
+Add the skill paths to your `claude_desktop_config.json`:
+```json
+{
+  "mcpServers": {
+    "dev-arsenal": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/dev-arsenal/skills"]
+    }
+  }
+}
+```
+
+### Cline
+In Cline settings, add custom instructions or point to the skills directory.
+
+### Cursor
+Configure the skills in your Cursor workspace settings.
 
 Let your agent do the heavy lifting.
 

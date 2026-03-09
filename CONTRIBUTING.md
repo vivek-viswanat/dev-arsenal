@@ -7,20 +7,15 @@ Each skill lives in its own directory under /skills. Follow this template to ens
 ### 1. The SKILL.md Format
 Your SKILL.md is the primary source of truth. It should follow the structure inspired by Cursor Skills:
 
-Name & Purpose: Clear title and a brief description.
-
-Context: When should the AI use this skill? (e.g., "Use this when the user asks to refactor React components").
-
-Instructions: Step-by-step rules for the AI to follow.
-
-Examples: High-quality examples of the skill in action.
+- **Frontmatter:** YAML frontmatter with `name` (matching the folder name exactly) and `description`.
+- **Context/When to use:** Clear title and a brief description of when to activate the skill.
+- **Instructions:** Step-by-step rules for the AI to follow.
+- **Examples:** High-quality examples of the skill in action (optional but recommended).
 
 ### 2. Folder Organization
-scripts/: If your skill requires a specific terminal command (e.g., a custom grep wrapper), place the script here.
-
-references/: Place markdown files or text snippets of documentation that the AI needs to read to perform the skill.
-
-config/: Include any JSON or YAML boilerplate the user might need to add to their local environment.
+- `scripts/`: If your skill requires a specific terminal command (e.g., a custom grep wrapper), place the script here.
+- `references/`: Place markdown files or text snippets of documentation that the AI needs to read to perform the skill.
+- `config/`: Include any JSON or YAML boilerplate the user might need to add to their local environment.
 
 ## 🚀 Development Workflow
 Fork the repository and create a branch.
