@@ -1,12 +1,16 @@
 # 🛠️ DevArsenal
-The Swiss Army Knife for AI-Native Development.
+The Swiss Army Knife for Enterprise Grade AI-Native Development.
 
-DevArsenal provides a collection of high-performance, ready-to-use skills for AI agents. Whether you are using Claude Code, Cline or Cursor these tools extend your agent's capabilities beyond the terminal, allowing them to interact with APIs, databases and local workflows with precision.
+DevArsenal is a curated collection of high-fidelity agent skills designed to bridge the gap between LLM reasoning and complex enterprise execution. Optimized for Claude Code, Cline and Cursor, these tools move beyond basic terminal commands to provide deterministic interactions with APIs, legacy databases and local architectural workflows.
+
+Built for devs who need their agents to act like Senior Engineers, not just autocomplete.
+
+If you are looking for framework or platform specific skills like ClickHouse, Stripe etc., use the repo here: https://github.com/VoltAgent/awesome-agent-skills 
 
 ## ✨ Key Features
 Plug & Play: Optimized for the Model Context Protocol (MCP).
 
-Dev-Centric: Includes tools for Jira automation, advanced DB querying, Docker management, and more.
+Dev-Centric: Includes tools for Jira automation, advanced DB querying, Docker management and more.
 
 Extensible: Built with a modular architecture—easily add your own custom logic.
 
