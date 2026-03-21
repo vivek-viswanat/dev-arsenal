@@ -3,6 +3,7 @@ Thank you for helping build the ultimate armory for AI-native development! Since
 
 ## 🛠️ How to Add a New Skill
 Each skill lives in its own directory under /skills. Follow this template to ensure the AI (Claude Code, Cline, etc.) can parse it correctly.
+To read more about the specification follow: https://agentskills.io/specification
 
 ### 1. The SKILL.md Format
 Your SKILL.md is the primary source of truth. It should follow the structure inspired by Cursor Skills:
